@@ -14,8 +14,12 @@
 //     should evaluate to 14
 
 
-function calculateTotalYearsOfExperience() {
-
+function calculateTotalYearsOfExperience(employeeArray) {
+  let yearsOfExperience = 0;
+  for (let employee of employeeArray) {
+    yearsOfExperience += employee.yearsOfExperience
+  }
+  return yearsOfExperience;
 }
 
 try {
