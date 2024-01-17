@@ -11,8 +11,8 @@
 //     should evaluate to 20
 
 
-function addFirstAndLast() {
-
+function addFirstAndLast(numArray) {
+  return numArray[0] + numArray[numArray.length - 1];
 }
 
 try {

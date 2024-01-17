@@ -14,8 +14,12 @@
 //     should evaluate to "dolphinBoopBeepBoop"
 
 
-function smooshSomeStrings() {
-  
+function smooshSomeStrings(array, number) {
+  let smoosh = '';
+  for (let i = number; i < array.length; i++) {
+    smoosh += array[i]
+  }
+  return smoosh
 }
 
 try {
